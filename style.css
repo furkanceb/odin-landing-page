@@ -40,15 +40,17 @@ nav{
  width: 500px;  
  
 }
-
-.intro button{
+button{
+    background-color:#3882F6 ;
     padding:8px 32px;
     border-radius: 8px;
     border: none;
-    background-color:#3882F6 ;
-    color: white;
     font-size: 16px;
-    margin-top: 24px;
+    color: #F9FAF8;
+
+}
+.intro button{
+  margin-top: 24px;
 }
 
 a, .intro-body{
@@ -131,3 +133,29 @@ ul{
     font-size: 22px;
 }
 
+.sign-up{
+    background-color: #3882F6;
+    margin: 20px 80px;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-radius: 8px;
+    border: none;
+}
+
+.sign-up button{
+    border:2px solid  #F9FAF8;
+    padding:8px 48px ;
+}
+
+.sign-up-body{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sign-up-header{
+    font-weight: 800;
+    font-size: 22px;
+}
